@@ -17,7 +17,7 @@ public class ExcelReadAll {
 	
 	public static void main(String[] args) throws Throwable {
 		
-		File f = new File("C:\\Users\\Mani\\eclipse-workspace\\Maven1\\Testdata\\Testdata.xlsx");
+		File f = new File("C:\\Users\\DELL\\Desktop8\\Excel\\Excel1\\Account details - Copy.xlsx");
 		FileInputStream stream = new FileInputStream(f);
 		Workbook w = new XSSFWorkbook(stream);
 		Sheet s = w.getSheet("v");
